@@ -1,0 +1,174 @@
+body{
+    margin:0px;
+}
+
+h1{
+    text-align:center;
+}
+
+nav{
+    position: sticky; top:0;
+
+}
+
+div{
+    position: sticky; top:0;
+}
+
+.navbar li{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+   
+}
+
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    display:block;
+ text-align: center;
+}
+
+.navbar a:hover{
+    background-color: darkgray;
+    text-decoration: underline;
+}
+
+.navbar li{
+    text-align: center;
+    float: right;
+    font-size:20px;
+}
+
+.navbar{
+    background:gray;
+}
+.navbar li:active{
+    text-decoration: underline;
+}
+
+.navbar a:active{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.dropdown{
+    display: inline-block;
+    float: right;
+}
+
+.dropdown button{
+    background-color: gray;
+    color: white;
+    padding: 19px;
+    border: none;
+cursor: pointer;
+font-size: 21.5px;
+
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding:19px;
+    
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+background-color: darkgray;
+min-width: 100px;
+box-shadow: 2px 2px 5px black;
+
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: darkgray;
+}
+
+.dropdown a:hover{
+    background-color: darkgray;
+    text-decoration: underline;
+}
+
+.me{
+    transform: translate(-100px,-90px);
+}
+
+.ride{
+    border: thick;
+}
+
+.ride{
+    transform:translate(-1000px,-600px);
+display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    border-style: solid;
+    font-size: 20px;
+    background-color: pink;
+}
+
+.me{
+    width: 1000px;
+    height: 700px;
+}
+
+@media only screen and (max-width: 400px){
+  .me{
+    width: 50%;
+    height: 50%;
+    transform: translate(0px,0px);
+  
+    }
+    .navbar li{
+        font-size: 10px;
+    }
+    .dropdown button{
+        font-size: 12px;
+    }
+    .ride{
+        display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    border-style: solid;
+    font-size: 20px;
+    background-color: pink;
+    }
+  }
+
+
+@media only screen and (max-width:500px){
+    .me{
+        width: 75%;
+        height: 75%;
+        transform: translate(0px, 0px);
+    }
+
+}
+
+@media only screen and (max-width:700px){
+
+}
+    
+
+
+
+
+
